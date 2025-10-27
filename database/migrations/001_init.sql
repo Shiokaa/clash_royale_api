@@ -44,8 +44,19 @@ CREATE TABLE
         FOREIGN KEY (card_id) REFERENCES cards (id) ON DELETE CASCADE
     );
 
-    -- Table d'une carte en version évoluée
-    -- Cette contient l'id de la carte en "FOREIGN KEY", ainsi que les ajouts d'une carte évoluée
+-- Table des stats d'une capacité d'un champion en fonction du niveau
+-- Cette table contient l'id de la capacité d'un champion en "FOREIGN KEY"
+CREATE TABLE
+    IF NOT EXISTS champion_ability_by_levels (
+        id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        champion_ability_id INT,
+        level TINYINT NOT NULL,
+        stats JSON,
+        FOREIGN KEY (champion_ability_id) REFERENCES champion_abilities (id) ON DELETE CASCADE
+    );
+
+-- Table d'une carte en version évoluée
+-- Cette contient l'id de la carte en "FOREIGN KEY", ainsi que les ajouts d'une carte évoluée
 CREATE TABLE
     IF NOT EXISTS evolutions_cards (
         id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -56,8 +67,8 @@ CREATE TABLE
         FOREIGN KEY (card_id) REFERENCES cards (id) ON DELETE CASCADE
     );
 
-    -- Table des statistiques de chaque carte évoluée par leur niveau
-    -- Cette table contient l'id de la carte en "FOREIGN KEY", le niveau ainsi que les statistiques en fonction de ce niveau pour les cartes évoluées
+-- Table des statistiques de chaque carte évoluée par leur niveau
+-- Cette table contient l'id de la carte en "FOREIGN KEY", le niveau ainsi que les statistiques en fonction de ce niveau pour les cartes évoluées
 CREATE TABLE
     IF NOT EXISTS evolution_card_stats_by_levels (
         id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
