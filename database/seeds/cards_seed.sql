@@ -954,26 +954,6 @@ VALUES
         '{"chained_attacks":3,"hit_speed":2.1,"stun_duration":0.5,"targets":"air & ground","speed":"medium","range":3.5}'
     ),
     (
-        'Rascal Boy',
-        "",
-        "common",
-        "troop",
-        13,
-        5,
-        NULL,
-        '{"hit_speed":1.5,"speed":"medium","range":"melee: short","targets":"ground"}'
-    ),
-    (
-        'Rascal Girl',
-        "",
-        "common",
-        "troop",
-        13,
-        5,
-        NULL,
-        '{"hit_speed":1,"speed":"medium","range":5,"targets":"air & ground"}'
-    ),
-    (
         'Rascals',
         "Spawns a mischievous trio of Rascals! The boy takes the lead, while the girls pelt enemies from behind... with slingshots full of Double Trouble Gum!",
         "common",
