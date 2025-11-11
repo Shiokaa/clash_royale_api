@@ -49,7 +49,7 @@ VALUES
         '{"targets":"air & ground"}'
     ),
     (
-        103,
+        101,
         'Cloaking Cape',
         'Activates stealth mode and shoots her arrows faster!',
         1,
@@ -58,7 +58,7 @@ VALUES
         '{"invisibility_duration":3.5,"damage_sec_boost":180}'
     ),
     (
-        104,
+        102,
         'Lightning Link',
         'Electrifies the link, damaging any enemies that get near. Shocking!',
         2,
@@ -67,7 +67,7 @@ VALUES
         '{"duration":4,"hit_speed":0.5,"targets":"air & ground","radius":2}'
     ),
     (
-        105,
+        103,
         'Pensive Protection',
         'Takes less Damage while deflecting projectiles back at the opponent!',
         1,
@@ -76,7 +76,7 @@ VALUES
         '{"duration":4,"damage_reduction":65}'
     ),
     (
-        117,
+        115,
         'Getaway Grenade',
         'Briefly becomes invisible and teleports backwards!',
         1,
