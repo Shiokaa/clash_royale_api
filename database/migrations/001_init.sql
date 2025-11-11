@@ -60,6 +60,7 @@ CREATE TABLE
 CREATE TABLE
     IF NOT EXISTS evolutions_cards (
         id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        name VARCHAR(50) NOT NULL,
         card_id INT UNIQUE,
         cycle_cost TINYINT NOT NULL,
         image_url VARCHAR(255),
@@ -72,9 +73,9 @@ CREATE TABLE
 CREATE TABLE
     IF NOT EXISTS evolution_card_stats_by_levels (
         id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-        card_id INT NOT NULL,
+        evolution_card_id INT NOT NULL,
         level TINYINT NOT NULL,
         evolution_stats JSON,
-        UNIQUE (card_id, level),
-        FOREIGN KEY (card_id) REFERENCES cards (id) ON DELETE CASCADE
+        UNIQUE (evolution_card_id, level),
+        FOREIGN KEY (evolution_card_id) REFERENCES evolutions_cards (id) ON DELETE CASCADE
     );
