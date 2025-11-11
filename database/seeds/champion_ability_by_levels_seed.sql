@@ -53,4 +53,4 @@ VALUES
     (6, 12, '{"damage":118,"crown_tower_damage":25}'),
     (6, 13, '{"damage":129,"crown_tower_damage":27}'),
     (6, 14, '{"damage":142,"crown_tower_damage":30}'),
-    (6, 15, '{"damage":156,"crown_tower_damage":33}'),
+    (6, 15, '{"damage":156,"crown_tower_damage":33}');
