@@ -2,10 +2,11 @@
 package api
 
 import (
+	"clash_royale_api/backend/service/cards"
 	"database/sql"
 	"log"
 	"net/http"
-	"clash_royale_api/backend/service/cards"
+
 	"github.com/gorilla/mux"
 )
 
@@ -30,5 +31,20 @@ func (s *APIServer) Run() error {
 
 	log.Println("Listening on", s.addr)
 
-	return http.ListenAndServe(s.addr, router)
+	handler := enableCORS(router)
+	return http.ListenAndServe(s.addr, handler)
+}
+
+func enableCORS(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
+
+		if r.Method == http.MethodOptions {
+			return
+		}
+
+		next.ServeHTTP(w, r)
+	})
 }
