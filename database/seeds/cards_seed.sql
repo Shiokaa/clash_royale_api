@@ -20,7 +20,7 @@ VALUES
         'troop',
         2,
         1,
-        NULL,
+        "https://www.deckshop.pro/img/c/Skellies.png",
         '{"hit_speed":1.1,"targets":"ground","speed":"fast","range":"melee: short","count":3}'
     ),
     (
@@ -30,7 +30,7 @@ VALUES
         'troop',
         4,
         1,
-        NULL,
+        "https://www.deckshop.pro/img/c/FireSpirit.png",
         '{"targets":"air & ground","speed":"very fast","range":2.5}'
     ),
     (
@@ -40,7 +40,7 @@ VALUES
         'troop',
         4,
         1,
-        NULL,
+        "https://www.deckshop.pro/img/c/ElectroSpirit.png",
         '{"chained_attacks":9,"stun_duration":0.5,"targets":"air & ground","speed":"very fast","range":2.5}'
     ),
     (
@@ -50,7 +50,7 @@ VALUES
         'troop',
         8,
         1,
-        NULL,
+        "https://www.deckshop.pro/img/c/IceSpirit.png",
         '{"freeze_duration":1.1,"targets":"air & ground","speed":"very fast","range":2.5}'
     ),
     (
@@ -60,7 +60,7 @@ VALUES
         'troop',
         13,
         1,
-        NULL,
+        "https://www.deckshop.pro/img/c/HealSpirit.png",
         '{"duration":1,"targets":"air & ground","speed":"very fast","range":2.5}'
     ),
     (
@@ -70,7 +70,7 @@ VALUES
         'spell',
         15,
         0,
-        NULL,
+        "https://www.deckshop.pro/img/c/Mirror.png",
         NULL
     ),
     (
@@ -80,7 +80,7 @@ VALUES
         'troop',
         1,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/Gobs.png",
         '{"hit_speed":1.1,"targets":"ground","speed":"very fast","range":"melee: short","count":4}'
     ),
     (
@@ -90,7 +90,7 @@ VALUES
         'troop',
         1,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/SpearGobs.png",
         '{"hit_speed":1.7,"targets":"air & ground","speed":"very fast","range":5,"count":3}'
     ),
     (
@@ -100,7 +100,7 @@ VALUES
         'troop',
         2,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/Bomber.png",
         '{"hit_speed":1.8,"targets":"ground","speed":"medium","range":4.5}'
     ),
     (
@@ -110,7 +110,7 @@ VALUES
         'troop',
         5,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/Bats.png",
         '{"hit_speed":1.3,"targets":"air & ground","speed":"very fast","range":"melee: medium","count":5}'
     ),
     (
@@ -120,7 +120,7 @@ VALUES
         'spell',
         5,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/Zap.png",
         '{"stun_duration":0.5,"radius":2.5}'
     ),
     (
@@ -130,7 +130,7 @@ VALUES
         'spell',
         8,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/Snowball.png",
         '{"slowdown_duration":3,"radius":2.5}'
     ),
     (
@@ -140,7 +140,7 @@ VALUES
         'troop',
         8,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/IceGolem.png",
         '{"hit_speed":2.5,"targets":"buildings","speed":"slow","range":"melee: short"}'
     ),
     (
@@ -150,7 +150,7 @@ VALUES
         'troop',
         9,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/Berserker.png",
         '{"hit_speed":0.6,"targets":"ground","speed":"fast","range":"melee: short"}'
     ),
     (
@@ -160,7 +160,7 @@ VALUES
         'spell',
         9,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/BarbBarrel.png",
         '{"targets":"ground","width":2.6,"range":4.5}'
     ),
     (
@@ -170,7 +170,7 @@ VALUES
         'spell',
         11,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/Log.png",
         '{"targets":"ground","width":3.9,"range":10.1}'
     ),
     (
@@ -180,7 +180,7 @@ VALUES
         'troop',
         12,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/WallBreakers.png",
         '{"targets":"buildings","speed":"very fast","range":"melee: short","count":2}'
     ),
     (
@@ -190,7 +190,7 @@ VALUES
         'troop',
         13,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/SuspiciousBush.png",
         '{"bush_goblin_count":2,"targets":"buildings","speed":"medium"}'
     ),
     (
@@ -200,7 +200,7 @@ VALUES
         'spell',
         14,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/Rage.png",
         '{"deploy_time":0.5,"duration":4.5,"boost":30,"radius":3}'
     ),
     (
@@ -210,7 +210,7 @@ VALUES
         'spell',
         14,
         2,
-        NULL,
+        "https://www.deckshop.pro/img/c/GoblinCurse.png",
         '{"duration":6,"radius":3}'
     ),
     (
@@ -220,7 +220,7 @@ VALUES
         'troop',
         0,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Knight.png",
         '{"hit_speed":1.2,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -230,7 +230,7 @@ VALUES
         'troop',
         0,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Archers.png",
         '{"hit_speed":0.9,"targets":"air & ground","speed":"medium","range":5,"count":2}'
     ),
     (
@@ -240,7 +240,7 @@ VALUES
         'troop',
         0,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Minions.png",
         '{"hit_speed":1.1,"targets":"air & ground","speed":"fast","range":2.5,"count":3}'
     ),
     (
@@ -250,7 +250,7 @@ VALUES
         'spell',
         0,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Arrows.png",
         '{"radius":3.5}'
     ),
     (
@@ -260,7 +260,7 @@ VALUES
         'building',
         2,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Tombstone.png",
         '{"spawn_on_death":{"name":"skeleton","count":4},"spawn_speed":4,"lifetime":30}'
     ),
     (
@@ -270,7 +270,7 @@ VALUES
         'building',
         3,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Cannon.png",
         '{"hit_speed":1,"targets":"ground","range":5.5,"lifetime":30}'
     ),
     (
@@ -280,7 +280,7 @@ VALUES
         'troop',
         3,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/MM.png",
         '{"hit_speed":1.5,"targets":"air & ground","speed":"medium","range":"melee: long"}'
     ),
     (
@@ -290,7 +290,7 @@ VALUES
         'troop',
         15,
         3,
-        NULL,
+        "https://static.wikia.nocookie.net/clashroyale/images/f/fd/SpiritEmpressCardGround.png/revision/latest/scale-to-width-down/250?cb=20250708215733",
         '{"hit_speed":1.1,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -300,7 +300,7 @@ VALUES
         'troop',
         6,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Guards.png",
         '{"hit_speed":1,"targets":"ground","speed":"fast","range":"melee: long","count":3}'
     ),
     (
@@ -310,7 +310,7 @@ VALUES
         'spell',
         6,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Barrel.png",
         '{"radius":1.5,"goblin_count":3}'
     ),
     (
@@ -320,7 +320,7 @@ VALUES
         'spell',
         8,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Vines.png",
         '{"count":3,"duration":2,"radius":2.5}'
     ),
     (
@@ -330,7 +330,7 @@ VALUES
         'troop',
         9,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/GobGang.png",
         '{"goblin_count":3,"spear_goblin_count":3}'
     ),
     (
@@ -340,7 +340,7 @@ VALUES
         'troop',
         9,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/SkellyBarrel.png",
         '{"skeleton_count":7,"targets":"buildings","speed":"fast"}'
     ),
     (
@@ -350,7 +350,7 @@ VALUES
         'troop',
         9,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/DartGob.png",
         '{"hit_speed":0.8,"targets":"air & ground","speed":"very fast","range":6.5}'
     ),
     (
@@ -360,7 +360,7 @@ VALUES
         'troop',
         11,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Princess.png",
         '{"hit_speed":3,"targets":"air & ground","speed":"medium","range":9,"deploy_time":1.2}'
     ),
     (
@@ -370,7 +370,7 @@ VALUES
         'troop',
         11,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Miner.png",
         '{"hit_speed":1.3,"targets":"ground","speed":"fast","range":"melee: medium"}'
     ),
     (
@@ -380,7 +380,7 @@ VALUES
         'troop',
         12,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Firecracker.png",
         '{"hit_speed":3,"targets":"air & ground","speed":"fast","range":6}'
     ),
     (
@@ -390,7 +390,7 @@ VALUES
         'spell',
         12,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Earthquake.png",
         '{"slowdown_enemies":50,"duration":3,"radius":3.5}'
     ),
     (
@@ -400,7 +400,7 @@ VALUES
         'troop',
         12,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/IceWiz.png",
         '{"hit_speed":1.7,"slowdown_duration":1,"targets":"air & ground","speed":"medium","range":5.5}'
     ),
     (
@@ -410,7 +410,7 @@ VALUES
         'troop',
         13,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Bandit.png",
         '{"min_dash_range":3.5,"max_dash_range":6,"hit_speed":1,"targets":"ground","speed":"fast","range":"melee: short"}'
     ),
     (
@@ -420,7 +420,7 @@ VALUES
         'spell',
         14,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/RoyalDelivery.png",
         '{"count":1,"radius":3}'
     ),
     (
@@ -430,7 +430,7 @@ VALUES
         'troop',
         14,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/ElixirGolem.png",
         '{"hit_speed":1.1,"targets":"buildings","speed":"slow","range":"melee: short"}'
     ),
     (
@@ -440,7 +440,7 @@ VALUES
         'spell',
         15,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Tornado.png",
         '{"duration":1,"radius":5.5}'
     ),
     (
@@ -450,7 +450,7 @@ VALUES
         'spell',
         15,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Clone.png",
         '{"clone_hitpoints":1,"clone_shield_hitpoints":1,"radius":3}'
     ),
     (
@@ -460,7 +460,7 @@ VALUES
         'spell',
         15,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Void.png",
         '{"duration":4,"radius":2.5}'
     ),
     (
@@ -470,7 +470,7 @@ VALUES
         'troop',
         15,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Fisherman.png",
         '{"min_ranged_attack_range":3.5,"max_ranged_attack_range":7,"hit_speed":1.3,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -480,7 +480,7 @@ VALUES
         'troop',
         6,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Skarmy.png",
         '{"skeleton_count":15}'
     ),
     (
@@ -490,7 +490,7 @@ VALUES
         'troop',
         12,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/Ghost.png",
         '{"hit_speed":1.8,"targets":"ground","speed":"fast","range":"melee: medium"}'
     ),
     (
@@ -500,7 +500,7 @@ VALUES
         'troop',
         18,
         3,
-        NULL,
+        "https://www.deckshop.pro/img/c/LittlePrince.png",
         '{"min_hit_speed":1.2,"max_hit_speed":0.4,"targets":"air & ground","speed":"medium","range":5.5}'
     ),
     (
@@ -510,7 +510,7 @@ VALUES
         'troop',
         0,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Musketeer.png",
         '{"hit_speed":1,"targets":"air & ground","speed":"medium","range":6}'
     ),
     (
@@ -520,7 +520,7 @@ VALUES
         'troop',
         0,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/MP.png",
         '{"hit_speed":1.6,"targets":"ground","speed":"fast","range":"melee: short"}'
     ),
     (
@@ -530,7 +530,7 @@ VALUES
         'building',
         1,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/GobHut.png",
         '{"spawn_speed":1.9,"targets":"air & ground","range":6,"lifetime":3,"spawn_on_death":{"name":"spear goblin","count":1}}'
     ),
     (
@@ -540,7 +540,7 @@ VALUES
         'building',
         1,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/GoblinCage.png",
         '{"goblin_brawler_count":1,"spawn_on_death":{"name":"goblin brawler","count":1},"lifetime":20}'
     ),
     (
@@ -550,7 +550,7 @@ VALUES
         'spell',
         0,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Fireball.png",
         '{"radius":2.5}'
     ),
     (
@@ -560,7 +560,7 @@ VALUES
         "troop",
         2,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Valkyrie.png",
         '{"hit_speed":1.5,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -570,7 +570,7 @@ VALUES
         "troop",
         3,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Ram.png",
         '{"targets":"buildings","speed":"medium","range":"melee: short"}'
     ),
     (
@@ -580,7 +580,7 @@ VALUES
         "troop",
         4,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/SkeletonDragons.png",
         '{"hit_speed":1.9,"targets":"air & ground","speed":"fast","range":3.5,"count":2}'
     ),
     (
@@ -590,7 +590,7 @@ VALUES
         "building",
         4,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/BombTower.png",
         '{"hit_speed":1.8,"targets":"ground","range":6,"lifetime":30}'
     ),
     (
@@ -600,7 +600,7 @@ VALUES
         'building',
         5,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Mortar.png",
         '{"hit_speed":5,"targets":"ground","range":11.5,"deploy_time":3.5,"lifetime":30}'
     ),
     (
@@ -610,7 +610,7 @@ VALUES
         "troop",
         5,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Hog.png",
         '{"hit_speed":1.6,"targets":"buildings","speed":"very fast","range":"melee: short"}'
     ),
     (
@@ -620,7 +620,7 @@ VALUES
         "troop",
         5,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/FlyingMachine.png",
         '{"hit_speed":1.1,"targets":"air & ground","speed":"fast","range":6}'
     ),
     (
@@ -630,7 +630,7 @@ VALUES
         "troop",
         6,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/BabyD.png",
         '{"hit_speed":1.5,"targets":"air & ground","speed":"fast","range":3.5}'
     ),
     (
@@ -640,7 +640,7 @@ VALUES
         "troop",
         7,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/DarkPrince.png",
         '{"hit_speed":1.3,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -650,7 +650,7 @@ VALUES
         "troop",
         8,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/BattleHealer.png",
         '{"hit_speed":1.5,"targets":"ground","speed":"medium","range":"melee: long"}'
     ),
     (
@@ -660,7 +660,7 @@ VALUES
         'spell',
         8,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Freeze.png",
         '{"freeze_duration":4,"radius":3}'
     ),
     (
@@ -670,7 +670,7 @@ VALUES
         "troop",
         9,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/RuneGiant.png",
         '{"hit_speed":1.5,"targets":"buildings","speed":"medium","range":"melee: medium","enchant_limit":2,"enchant_range":7}'
     ),
     (
@@ -680,7 +680,7 @@ VALUES
         "spell",
         9,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Poison.png",
         '{"slowdown_enemies":15,"duration":8,"radius":3.5}'
     ),
     (
@@ -690,7 +690,7 @@ VALUES
         "building",
         10,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Tesla.png",
         '{"hit_speed":1.1,"targets":"air & ground","range":5.5,"lifetime":30}'
     ),
     (
@@ -700,7 +700,7 @@ VALUES
         "troop",
         10,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Zappies.png",
         '{"hit_speed":2.1,"stun_duration":0.5,"targets":"air & ground","speed":"medium","range":4.5,"count":3}'
     ),
     (
@@ -710,7 +710,7 @@ VALUES
         "troop",
         10,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Furnace.png",
         '{"spawn_speed":7,"hit_speed":1.8,"targets":"air & ground","speed":"medium","range":6}'
     ),
     (
@@ -720,7 +720,7 @@ VALUES
         "troop",
         10,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Hunter.png",
         '{"hit_speed":2.2,"targets":"air & ground","speed":"medium","range":4,"projectile_damage":6.5}'
     ),
     (
@@ -730,7 +730,7 @@ VALUES
         "troop",
         11,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/InfernoD.png",
         '{"hit_speed":0.4,"targets":"air & ground","speed":"medium","range":3.5}'
     ),
     (
@@ -740,7 +740,7 @@ VALUES
         "troop",
         11,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/ElectroWiz.png",
         '{"hit_speed":1.8,"stun_duration":0.5,"targets":"air & ground","speed":"fast","range":5}'
     ),
     (
@@ -750,7 +750,7 @@ VALUES
         "troop",
         12,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/GoblinDemolisher.png",
         '{"hit_speed":1.2,"targets":"ground","speed":"medium","range":5,"activation":50,"charge_targets":"buildings","charge_speed":"very fast"}'
     ),
     (
@@ -760,7 +760,7 @@ VALUES
         "troop",
         12,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Phoenix.png",
         '{"hit_speed":1,"targets":"air & ground","speed":"medium","range":"melee: long"}'
     ),
     (
@@ -770,7 +770,7 @@ VALUES
         "troop",
         13,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/MagicArcher.png",
         '{"hit_speed":1.1,"targets":"air & ground","speed":"medium","range":7,"projectile_range":11}'
     ),
     (
@@ -780,7 +780,7 @@ VALUES
         "building",
         14,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/GoblinDrill.png",
         '{"spawn_on_death":{"name":"goblin","count":2},"spawn_speed":3,"lifetime":10}'
     ),
     (
@@ -790,7 +790,7 @@ VALUES
         "troop",
         14,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/Lumberjack.png",
         '{"hit_speed":0.8,"targets":"ground","speed":"very fast","range":"melee: short"}'
     ),
     (
@@ -800,7 +800,7 @@ VALUES
         "troop",
         14,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/NightWitch.png",
         '{"spawn_on_death":{"name":"bat","count":1},"spawn_speed":5,"hit_speed":1.3,"targets":"ground","speed":"medium","range":"melee: long"}'
     ),
     (
@@ -810,7 +810,7 @@ VALUES
         "troop",
         15,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/MotherWitch.png",
         '{"hit_speed":1,"targets":"air & ground","speed":"medium","range":5.5,"effect_duration":5}'
     ),
     (
@@ -820,7 +820,7 @@ VALUES
         "troop",
         16,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/GoldenKnight.png",
         '{"hit_speed":0.9,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -830,7 +830,7 @@ VALUES
         "troop",
         16,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/SkeletonKing.png",
         '{"hit_speed":1.6,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -840,7 +840,7 @@ VALUES
         "troop",
         17,
         4,
-        NULL,
+        "https://www.deckshop.pro/img/c/MightyMiner.png",
         '{"hit_speed":0.4,"targets":"ground","speed":"medium","range":"melee: long"}'
     ),
     (
@@ -850,7 +850,7 @@ VALUES
         "troop",
         0,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Giant.png",
         '{"hit_speed":1.5,"targets":"buildings","speed":"slow","range":"melee: medium"}'
     ),
     (
@@ -860,7 +860,7 @@ VALUES
         "troop",
         3,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Barbarians.png",
         '{"hit_speed":1.3,"targets":"ground","speed":"medium","range":"melee: short","count":5}'
     ),
     (
@@ -870,7 +870,7 @@ VALUES
         "troop",
         4,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Wiz.png",
         '{"hit_speed":1.4,"targets":"air & ground","speed":"medium","range":5.5}'
     ),
     (
@@ -880,7 +880,7 @@ VALUES
         "building",
         4,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Inferno.png",
         '{"hit_speed":0.4,"targets":"air & ground","range":6,"lifetime":30}'
     ),
     (
@@ -890,7 +890,7 @@ VALUES
         "troop",
         6,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Witch.png",
         '{"spawn_speed":7,"hit_speed":1.1,"targets":"air & ground","speed":"medium","range":5.5}'
     ), 
     (
@@ -900,7 +900,7 @@ VALUES
         "troop",
         7,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/RoyalHogs.png",
         '{"hit_speed":1.2,"targets":"buildings","speed":"very fast","range":"melee: short","count":4}'
     ),
     (
@@ -910,7 +910,7 @@ VALUES
         "troop",
         7,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Balloon.png",
         '{"hit_speed":2,"targets":"buildings","speed":"medium","range":"melee: short"}'
     ),
     (
@@ -920,7 +920,7 @@ VALUES
         "troop",
         7,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Prince.png",
         '{"hit_speed":1.4,"targets":"ground","speed":"medium","range":"melee: long"}'
     ),
     (
@@ -930,7 +930,7 @@ VALUES
         "troop",
         10,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Horde.png",
         '{"hit_speed":1.1,"targets":"air & ground","speed":"fast","range":2.5,"count":6}'
     ),
     (
@@ -940,7 +940,7 @@ VALUES
         "troop",
         11,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/RamRider.png",
         '{"rider_count":1,"hit_speed":1.8,"targets":"buildings","speed":"medium","range":"melee: short"}'
     ),
     (
@@ -950,7 +950,7 @@ VALUES
         "troop",
         12,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/eDragon.png",
         '{"chained_attacks":3,"hit_speed":2.1,"stun_duration":0.5,"targets":"air & ground","speed":"medium","range":3.5}'
     ),
     (
@@ -960,7 +960,7 @@ VALUES
         "troop",
         13,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Rascals.png",
         '{"rascal_boy_count":1,"rascal_girl_count":2}'
     ),
     (
@@ -970,7 +970,7 @@ VALUES
         "troop",
         13,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Bowler.png",
         '{"hit_speed":2.5,"targets":"ground","speed":"slow","range":4,"projectile_range":7.5}'
     ),
     (
@@ -980,7 +980,7 @@ VALUES
         "troop",
         14,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Exe.png",
         '{"hit_speed":2.4,"targets":"air & ground","speed":"medium","range":4.5,"projectile_range":7.5}'
     ),
     (
@@ -990,7 +990,7 @@ VALUES
         "troop",
         15,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/CannonCart.png",
         '{"hit_speed":0.9,"targets":"ground","speed":"medium","range":5.5,"activation":50}'
     ),
     (
@@ -1000,7 +1000,7 @@ VALUES
         "troop",
         15,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/GoblinMachine.png",
         '{"hit_speed":1.2,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -1010,7 +1010,7 @@ VALUES
         "spell",
         12,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Graveyard.png",
         '{"spawn_speed":0.5,"duration":9,"radius":4}'
     ),
     (
@@ -1020,7 +1020,7 @@ VALUES
         "troop",
         17,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/ArcherQueen.png",
         '{"hit_speed":1.2,"targets":"air & ground","speed":"medium","range":5}'
     ),
     (
@@ -1030,7 +1030,7 @@ VALUES
         "troop",
         18,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Goblinstein.png",
         '{"hit_speed":1.8,"stun_duration":0.5,"targets":"air & ground","speed":"medium","range":5.5}'
     ),
     (
@@ -1040,7 +1040,7 @@ VALUES
         "troop",
         18,
         5,
-        NULL,
+        "https://www.deckshop.pro/img/c/Monk.png",
         '{"hit_speed":0.8,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -1050,7 +1050,7 @@ VALUES
         "spell",
         5,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/Rocket.png",
         '{"radius":2}'
     ),
     (
@@ -1060,7 +1060,7 @@ VALUES
         "troop",
         7,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/RG.png",
         '{"hit_speed":1.7,"targets":"buildings","speed":"slow","range":5}'
     ),
     (
@@ -1070,7 +1070,7 @@ VALUES
         "troop",
         8,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/GiantSkelly.png",
         '{"hit_speed":1.4,"targets":"ground","speed":"medium","range":"melee: short"}'
     ),
     (
@@ -1080,7 +1080,7 @@ VALUES
         "spell",
         8,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/Lightning.png",
         '{"count":3,"stun_duration":0.5,"radius":3.5}'
     ),
     (
@@ -1090,7 +1090,7 @@ VALUES
         "building",
         9,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/BarbHut.png",
         '{"spawn_on_death":{"name":"barbarian","count":1},"spawn_speed":15,"lifetime":30}'
     ),
     (
@@ -1100,7 +1100,7 @@ VALUES
         "troop",
         9,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/GobGiant.png",
         '{"spear_goblin_count":2,"hit_speed":1.5,"targets":"buildings","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -1110,7 +1110,7 @@ VALUES
         "troop",
         10,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/eBarbs.png",
         '{"hit_speed":1.4,"targets":"ground","speed":"fast","range":"melee: medium","count":2}'
     ),
     (
@@ -1120,7 +1120,7 @@ VALUES
         "building",
         10,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/XBow.png",
         '{"hit_speed":0.3,"targets":"ground","range":11.5,"deploy_time":3.5,"lifetime":30}'
     ),
     (
@@ -1130,7 +1130,7 @@ VALUES
         "troop",
         10,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/Sparky.png",
         '{"hit_speed":4,"targets":"ground","speed":"slow","range":5}'
     ),
     (
@@ -1140,7 +1140,7 @@ VALUES
         "building",
         15,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/Pump.png",
         '{"production_speed":12,"lifetime":76}'
     ),
     (
@@ -1150,7 +1150,7 @@ VALUES
         "troop",
         15,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/SpiritEmpress.png",
         '{"hit_speed":1.4,"targets":"air & ground","speed":"medium","range":5,"ground_elixir":3}'
     ),
     (
@@ -1160,7 +1160,7 @@ VALUES
         "troop",
         17,
         6,
-        NULL,
+        "https://www.deckshop.pro/img/c/BossBandit.png",
         '{"min_dash_range":3.5,"max_dash_range":6,"hit_speed":1.2,"targets":"ground","speed":"fast","range":"melee: short"}'
     ),
     (
@@ -1170,7 +1170,7 @@ VALUES
         "troop",
         6,
         7,
-        NULL,
+        "https://www.deckshop.pro/img/c/PEKKA.png",
         '{"hit_speed":1.8,"targets":"ground","speed":"slow","range":"melee: medium"}'
     ),
     (
@@ -1180,7 +1180,7 @@ VALUES
         "troop",
         7,
         7,
-        NULL,
+        "https://www.deckshop.pro/img/c/RoyalRecruits.png",
         '{"hit_speed":1.3,"targets":"ground","speed":"medium","range":"melee: long","count":6}'
     ),
     (
@@ -1190,7 +1190,7 @@ VALUES
         "troop",
         11,
         7,
-        NULL,
+        "https://www.deckshop.pro/img/c/MegaKnight.png",
         '{"min_jump_range":3.5,"max_jump_range":5,"hit_speed":1.7,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -1200,7 +1200,7 @@ VALUES
         "troop",
         13,
         7,
-        NULL,
+        "https://www.deckshop.pro/img/c/ElectroGiant.png",
         '{"hit_speed":2.1,"targets":"buildings","speed":"slow","range":"melee: medium","stun_duration":0.5}'
     ),
     (
@@ -1210,7 +1210,7 @@ VALUES
         "troop",
         13,
         7,
-        NULL,
+        "https://www.deckshop.pro/img/c/Lava.png",
         '{"hit_speed":1.3,"targets":"buildings","speed":"slow","range":3.5}'
     ),
     (
@@ -1220,7 +1220,7 @@ VALUES
         "troop",
         10,
         8,
-        NULL,
+        "https://www.deckshop.pro/img/c/Golem.png",
         '{"hit_speed":2.5,"targets":"buildings","speed":"slow","range":"melee: short","deploy_time":3}'
     ),
     (
@@ -1230,6 +1230,6 @@ VALUES
         "troop",
         7,
         9,
-        NULL,
+        "https://www.deckshop.pro/img/c/3M.png",
         '{"hit_speed":1,"targets":"air & ground","speed":"medium","range":6,"count":3}'
     );
