@@ -98,8 +98,6 @@ Commits et Pull Requests rédigés en anglais.
 L’application utilise des logs console pour tracer les erreurs :
 - Message personnalisé décrivant le contexte
 - Erreur retournée par Go/Mysql
-  
----
 
 ## Sécurité de base
 - Fichier `.gitignore` pour exclure les fichiers sensibles et inutiles
