@@ -7,7 +7,7 @@ interface CardComponentProps {
 }
 
 const CardComponent: React.FC<CardComponentProps> = ({ card, onSelect }) => {
-  // Couleurs selon la rareté
+  // Couleurs de fond selon la rareté
   const rarityColors: Record<string, string> = {
     Common: 'from-gray-600 to-gray-800 border-gray-400',
     Rare: 'from-orange-500 to-orange-700 border-orange-400',
