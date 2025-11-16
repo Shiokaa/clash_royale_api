@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Card } from '../src/types';
 import { fetchCards } from '../src/services/apiService';
 import CardComponent from '../src/components/Card';
-// import CardDetailModal from '../src/components/CardDetailModal';
+// import CardDetailModal from '../components/CardDetailModal';
 
 export default function Home() {
   const [cards, setCards] = useState<Card[]>([]);
