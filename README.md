@@ -69,6 +69,7 @@ npm run build
 
 **Terminal 1 - Backend :**
 ```bash
+cd ..
 go run backend/cmd/server/main.go
 ```
 
