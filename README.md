@@ -71,7 +71,6 @@ npm run build
 ```bash
 go run backend/cmd/server/main.go
 ```
-Le backend sera accessible sur [http://localhost:3000](http://localhost:3000)
 
 **Terminal 2 - Frontend :**
 ```bash
