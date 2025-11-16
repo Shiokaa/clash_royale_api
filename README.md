@@ -51,19 +51,33 @@ database/seeds/cards_seed.sql
 
 ### 4. Installer les dépendances
 
+#### Backend
 ```bash
 go mod tidy
 ```
 
-### 5. Démarrer le serveur
+#### Frontend
+```bash
+cd frontend
+npm install
+```
 
+### 5. Démarrer l'application
+
+#### Option 1 : Lancer backend et frontend séparément
+
+**Terminal 1 - Backend :**
 ```bash
 go run backend/cmd/server/main.go
 ```
+Le backend sera accessible sur [http://localhost:3000](http://localhost:3000)
 
-Frontend démarrage
-
-Accédez ensuite à [http://localhost:3000](http://localhost:3000)
+**Terminal 2 - Frontend :**
+```bash
+cd frontend
+npm run dev -- -p 3001
+```
+Le frontend sera accessible sur [http://localhost:3001](http://localhost:3001)
 
 ## Routes de l'API
 
