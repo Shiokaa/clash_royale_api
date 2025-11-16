@@ -1,4 +1,4 @@
-// Enums pour une meilleure validation côté frontend
+
 export enum CardRarity {
   Common = 'Common',
   Rare = 'Rare',
@@ -13,7 +13,6 @@ export enum CardType {
   Spell = 'Spell',
 }
 
-// Interface principale correspondant à votre backend Go
 export interface Card {
   id: number;
   name: string; 
