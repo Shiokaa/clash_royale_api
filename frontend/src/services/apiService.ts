@@ -1,6 +1,6 @@
 export const fetchCards = async (): Promise<any[]> => {
 
-  const API_URL = 'http://localhost:8080/api/v1/cards';
+  const API_URL = 'http://localhost:3000/api/v1/cards';
 
   try {
     console.log(`Fetching card data from ${API_URL}...`);
