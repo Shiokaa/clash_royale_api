@@ -290,7 +290,7 @@ VALUES
         'troop',
         15,
         3,
-        "https://static.wikia.nocookie.net/clashroyale/images/f/fd/SpiritEmpressCardGround.png/revision/latest/scale-to-width-down/250?cb=20250708215733",
+        "https://static.wikia.nocookie.net/clashroyale/images/f/fd/SpiritEmpressCardGround.png",
         '{"hit_speed":1.1,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -510,7 +510,7 @@ VALUES
         'troop',
         0,
         4,
-        "https://www.deckshop.pro/img/c/Musketeer.png",
+        "https://www.deckshop.pro/img/c/Musk.png",
         '{"hit_speed":1,"targets":"air & ground","speed":"medium","range":6}'
     ),
     (
@@ -560,7 +560,7 @@ VALUES
         "troop",
         2,
         4,
-        "https://www.deckshop.pro/img/c/Valkyrie.png",
+        "https://www.deckshop.pro/img/c/Valk.png",
         '{"hit_speed":1.5,"targets":"ground","speed":"medium","range":"melee: medium"}'
     ),
     (
@@ -740,7 +740,7 @@ VALUES
         "troop",
         11,
         4,
-        "https://www.deckshop.pro/img/c/ElectroWiz.png",
+        "https://www.deckshop.pro/img/c/eWiz.png",
         '{"hit_speed":1.8,"stun_duration":0.5,"targets":"air & ground","speed":"fast","range":5}'
     ),
     (
@@ -790,7 +790,7 @@ VALUES
         "troop",
         14,
         4,
-        "https://www.deckshop.pro/img/c/Lumberjack.png",
+        "https://www.deckshop.pro/img/c/Lumber.png",
         '{"hit_speed":0.8,"targets":"ground","speed":"very fast","range":"melee: short"}'
     ),
     (
@@ -860,7 +860,7 @@ VALUES
         "troop",
         3,
         5,
-        "https://www.deckshop.pro/img/c/Barbarians.png",
+        "https://www.deckshop.pro/img/c/Barbs.png",
         '{"hit_speed":1.3,"targets":"ground","speed":"medium","range":"melee: short","count":5}'
     ),
     (
@@ -892,7 +892,7 @@ VALUES
         5,
         "https://www.deckshop.pro/img/c/Witch.png",
         '{"spawn_speed":7,"hit_speed":1.1,"targets":"air & ground","speed":"medium","range":5.5}'
-    ), 
+    ),
     (
         'Royal Hogs',
         "The King's personal pets are loose! They love to chomp on apples and towers alike - who let the hogs out?!",
