@@ -60,6 +60,7 @@ go mod tidy
 ```bash
 cd frontend
 npm install
+npm run build
 ```
 
 ### 5. Démarrer l'application
@@ -75,7 +76,7 @@ Le backend sera accessible sur [http://localhost:3000](http://localhost:3000)
 **Terminal 2 - Frontend :**
 ```bash
 cd frontend
-npm run dev -- -p 3001
+npx next dev -p 3001
 ```
 Le frontend sera accessible sur [http://localhost:3001](http://localhost:3001)
 
